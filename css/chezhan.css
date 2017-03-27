@@ -1,0 +1,379 @@
+.w{
+    width: 1206px;
+    margin: 0 auto;
+    /*border-right:1px solid black ;*/
+    /*border-left:1px solid black ;*/
+}
+.logo-wrapper{
+    height: 564px;
+    background: url(../images/logo-bg.png);
+    background-size: cover;
+}
+.logo{
+    height: 194px;
+}
+.logo-up{
+    height: 246px;
+    text-align: justify;
+}
+.logo-up-up{
+    height: 104px;
+    text-align: right;
+}
+/*logo下面 nav导航开始*/
+.nav{
+    background: url("../images/nav-bg.png");
+}
+.nav .nav-ul{
+    width: 1206px;
+    height: 76px;
+    text-align: center;
+}
+.nav .nav-ul li{
+    width: 161px;
+    height: 76px;
+    font-size: 18px;
+    line-height: 76px;
+    color: white;
+    display: inline-block;
+}
+.nav .nav-ul .li{
+    background:url(../images/nav-yellow.png) no-repeat right;
+}
+.nav .nav-ul li a{
+    text-decoration: none;
+    color: white;
+    /*line-height: 76px;*/
+}
+.nav .nav-ul li a:hover{
+    color: #ffd200;
+    font-size: 20px;
+    line-height: 74px;
+}
+/*聚焦车展开始----------------------------------*/
+.jujiaochezhan{
+    margin-top: 31px;
+}
+.jujiaochezhan .part1{
+    /*height: 341px;*/
+}
+.jujiaochezhan .part1 .part1-left{
+    float: left;
+}
+.jujiaochezhan .part1 .part1-left-up{
+    height: 56px;
+    background:url("../images/float-jujiaochezhan.png") no-repeat;
+}
+.jujiaochezhan .part1  .part1-left-down{
+    width: 815px;
+    /*line-height: 37px;*/
+    /*background-color: palevioletred;*/
+}
+.jujiaochezhan .part1  .part1-left-down h1{
+    color: #333;
+    font-size: 30px;
+    line-height: 57px;
+}
+.jujiaochezhan .part1-left-down .jujiaochezhan-ul li{
+    display: inline-block;
+    font-size: 14px;
+    width: 387px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 47px;
+    margin-right: 14px;
+}
+.jujiaochezhan .part1-left-down .jujiaochezhan-ul li a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.jujiaochezhan .part1-left-down .jujiaochezhan-ul li a:hover{
+    color: #FE552E;
+}
+/*part1-right*/
+.jujiaochezhan .part1 .part1-right{
+    width: 346px;
+    height: 353px;
+    border: 2px solid #f5f5f5;
+    float: right;
+    background: url(../images/jujiaochezhan-2016-bg.png) no-repeat 9px 68px;
+    margin-top: 11px;
+}
+.jujiaochezhan .part1 .part1-right .infor{
+    height: 59px;
+    background-color: #FE552E;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 59px;
+}
+.jujiaochezhan .part1 .part1-right .p1{
+    margin-left: 20px;
+    color: #333333;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    line-height: 46px;
+}
+.jujiaochezhan .part1 .part1-right .infor-txt{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #5a5a5a;
+}
+.jujiaochezhan .part1 .part1-right .infor-tx1-wrap{
+    margin-top: 84px;
+}
+.jujiaochezhan .part2{
+    width: 1206px;
+    height: 200px;
+    margin-top: 33px;
+}
+.jujiaochezhan .part2 img{
+    margin-right: 40px;
+}
+.jujiaochezhan .part2 .right{
+    margin-right: -10px;
+}
+/*聚焦车展结束------------------------*/
+/*资讯开始---------------------------*/
+.zixun{
+    margin-top: 29px;
+}
+.zixun .column{
+    height: 222px;
+    border-bottom: 1px solid #FE552E;
+    margin-top: 29px;
+}
+.zixun .column:hover{
+    color: #FE552E;
+}
+.zixun .column img{
+    float: left;
+}
+.zixun .column .column-txt{
+    width: 730px;
+    height: 222px;
+    float: left;
+    overflow: hidden;
+    padding-left: 64px;
+}
+.zixun .column .column-txt h2{
+    line-height: 64px;
+
+}
+.zixun .column .column-txt .p1{
+    line-height: 31px;
+}
+.zixun .column .column-txt .p2{
+    font-size: 12px;
+    margin-top: 50px;
+}
+/*资讯结束*/
+/*资讯下面的查看更多开始 skew知识点----------------*/
+.more{
+    height: 90px;
+    text-align: center;
+    position: relative;
+}
+.more .more-con{
+    width: 442px;
+    height: 40px;
+    background-color: #bdbdbd;
+    transform: skewX(160deg);
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    left: 50%;
+    margin-left: -221px;
+}
+.more a{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    top: 31px;
+    left: 570px;
+}
+/*快照开始---------------------------*/
+.kuaizhao .title{
+    margin-bottom: 10px;
+}
+.kuaizhao .part1-left,
+.kuaizhao .part1-right{
+    width: 284px;
+    height: 401px;
+    float: left;
+    /*background-color: palevioletred;*/
+}
+.kuaizhao .part1-left .bot,
+.kuaizhao .part1-right .bot{
+    margin-bottom: 23px;
+}
+.kuaizhao .part1-left .imge_special,
+.kuaizhao .part1-right .imge_special{
+    width: 284px;
+    height: 189px;
+    /*background-color: #5A5A5A;*/
+    position: relative;
+}
+.kuaizhao .part1-left .imge_special:before,
+.kuaizhao .part1-right .imge_special:before{
+    content: '凯迪拉克CT6';
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(255,255,255,.8);
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.kuaizhao .part1-left .imge_special:hover:before,
+.kuaizhao .part1-right .imge_special:hover:before{
+    opacity: 0;
+}
+.kuaizhao .part1-middle{
+    width: 603px;
+    height: 401px;
+    float: left;
+    margin: 0 17px;
+    /*background-color: palegoldenrod;*/
+}
+.kuaizhao .part1-middle .imge_special{
+    width: 603px;
+    height: 401px;
+    position: relative;
+}
+.kuaizhao .part1-middle .imge_special:before{
+    content: '凯迪拉克CT6';
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(255,255,255,.8);
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    /*方法一 有无透明opacity 1无透明 0完全透明*/
+    opacity:1;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.kuaizhao .part1-middle .imge_special:hover:before{
+    opacity: 0;
+    /*方法二 display也可以 但生硬 无法用transition-property*/
+    /*display:none;*/
+}
+/*<!--kuaizhao part2 快照下面部分开始-->*/
+.kuaizhao .part2_wrapp{
+    margin-top: 16px;
+}
+.kuaizhao .part2-left{
+    width: 603px;
+    height: 401px;
+    float: left;
+    margin-right: 16px;
+}
+.kuaizhao .part2-left .imge_special{
+    width: 603px;
+    height: 401px;
+    position: relative;
+}
+.kuaizhao .part2-left .imge_special:before{
+    content: '凯迪拉克CT6';
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(255,255,255,.8);
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    opacity:1;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.kuaizhao .part2-left .imge_special:hover:before{
+    opacity:0;
+}
+.kuaizhao .part2-middle{
+    width: 282px;
+    height: 401px;
+    float: left;
+}
+.kuaizhao .part2-middle .up{
+    margin-bottom: 22px;
+}
+.kuaizhao .part2-right{
+    width: 282px;
+    height: 401px;
+    float: left;
+}
+.kuaizhao .part2-right{
+    margin-left: 19px;
+}
+.kuaizhao .part2-right .up{
+    margin-bottom: 22px;
+}
+/*part2-middle part2-right的imge_special*/
+.kuaizhao .part2-middle .imge_special,
+.kuaizhao .part2-right .imge_special
+{
+    width: 282px;
+    height: 189px;
+    position: relative;
+}
+.kuaizhao .part2-middle .imge_special:before,
+.kuaizhao .part2-right .imge_special:before
+{
+    content: '凯迪拉克CT6';
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(255,255,255,.8);
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    opacity:1;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.kuaizhao .part2-middle .imge_special:hover:before,
+.kuaizhao .part2-right .imge_special:hover:before
+{
+    opacity: 0;
+}
+.xinnengyuan .title{
+    margin-top: 20px;
+
+}
+.xinnengyuan .content{
+    width: 282px;
+    /*height: 217px;*/
+    float: left;
+}
+.xinnengyuan .content .imge{
+    width: 282px;
+    height: 198px;
+}
+.xinnengyuan .content .imge img{
+    width: 100%;
+    height: 100%;
+}
+.xinnengyuan .content .imge_up{
+    width: 282px;
+    height: 30px;
+    background-color: #FE552E;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.xinnengyuan .c1,
+.xinnengyuan .c2,
+.xinnengyuan .c3{
+    margin-right: 25px;
+}
